@@ -1,10 +1,15 @@
+@font-face {
+  font-family: "Mont";
+  src: url("assets/fonts/Mont-SemiBold.ttf");
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
 body {
   margin: 0;
   padding: 0;
 }
-@font-face {
-  font-family: "Mob";
-  src: url("assets/fonts/Mont-Regular.ttf");
+img {
+  max-width: 100%;
 }
 .container {
   background-color: #11346f;
@@ -16,7 +21,7 @@ body {
   text-align: center;
   color: #f6f8fc;
   margin: 0;
-  font-family: "Mob";
+  font-family: "Mont";
 }
 nav {
   background: rgba(245, 253, 255, 0.8);
@@ -37,12 +42,130 @@ nav {
 }
 .content {
   background-color: #f5fdff;
-  padding: 17px;
+  padding: 17px 14px;
 }
 .cont {
   display: flex;
+  justify-content: space-between;
 }
-
+.main-text {
+  font-family: "Mont";
+  font-size: 26px;
+  line-height: 30px;
+  color: #11346f;
+  margin: 0;
+}
+.cont-image {
+  width: 174px;
+  height: 107px;
+  margin: auto 0;
+}
+.img-div,
+.flex {
+  display: flex;
+}
+.txt {
+  color: #197aff;
+  font-weight: 900;
+}
+.magic-text {
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #262626;
+}
+.massage {
+  display: flex;
+  justify-content: space-between;
+}
+.massage-txt {
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #11346f;
+}
+.massage-img {
+  margin: 0 auto;
+  display: flex;
+}
+.btn-magic {
+  font-family: "Mont";
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  background: #197aff;
+  border-radius: 60px;
+  border: none;
+  width: 100%;
+  padding: 19px;
+}
+.btn-bundle {
+  border: none;
+  background: rgba(77, 145, 207, 0.15);
+  box-shadow: 0px 0px 14px #ffffff;
+  border-radius: 30px;
+  padding: 10px;
+  width: 70%;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 14px;
+  color: #000000;
+  display: flex;
+  margin: auto;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+.stroke-two {
+  display: none;
+}
+.stroke-one {
+  display: flex;
+}
+.msg-text {
+  display: none;
+}
+.hide-mob {
+  display: block;
+}
+.hide-des {
+  display: none;
+}
+.comment {
+  background: rgba(234, 242, 255, 0.1);
+  border: 1px solid rgba(174, 204, 255, 0.5);
+  border-radius: 110px;
+  padding: 13px;
+  display: flex;
+  margin-top: 29px;
+}
+.hr-hide {
+  display: none;
+}
+.girl-img {
+  width: 64px;
+  height: 64px;
+  margin-right: 10px;
+}
+.comment-txt {
+  font-family: "Mont";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+}
+.txt-name {
+  margin: 0;
+}
 @media only screen and (min-width: 1440px) {
   nav {
     padding-left: 100px;
@@ -82,5 +205,87 @@ nav {
     border-radius: 60px;
     padding: 11px 39px;
     border: none;
+  }
+  .content {
+    padding: 65px 100px;
+    background-color: #fbfbfb;
+  }
+  .div {
+    display: flex;
+  }
+  .stroke-one {
+    display: none;
+  }
+  .stroke-two {
+    display: flex;
+    width: 48.18px;
+    height: 66.12px;
+  }
+  .main-text {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+  }
+  .cont-image {
+    width: 290px;
+    height: 241px;
+    margin-top: 5%;
+  }
+  .massage {
+    width: 50%;
+  }
+  .magic-text {
+    margin-top: -17%;
+    text-align: left;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .btn-magic {
+    margin-top: 52px;
+    margin-bottom: 18px;
+  }
+  .btn-bundle {
+    display: flex;
+    margin: auto;
+  }
+  .br {
+    display: none;
+  }
+  .massage {
+    background: rgba(174, 204, 255, 0.1);
+    border: 1px solid rgba(174, 204, 255, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .massage-txt {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .msg-text {
+    display: block;
+    font-family: "Mont";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #262626;
+  }
+  .hide-mob {
+    display: none;
+  }
+  .hide-des {
+    display: block;
+  }
+  .div-btn {
+    width: 35%;
+  }
+  .hr-hide {
+    display: flex;
+  }
+  .comment {
+    width: 40%;
+    margin: -7% 60%;
   }
 }
