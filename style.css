@@ -29,24 +29,33 @@ nav {
   backdrop-filter: blur(14px);
   padding: 15px;
 }
-.nav-cont {
-  display: none;
-}
+
 .nav-image {
   margin: auto;
   display: flex;
   height: 22px;
 }
-.btn-order {
+.btn-order,
+.nav-cont,
+.msg-text,
+.stroke-two,
+.hide-des,
+.hr-hide,
+.white-cont,
+.stroke {
   display: none;
 }
 .content {
   background-color: #f5fdff;
   padding: 17px 14px;
 }
-.cont {
+.cont,
+.massage {
   display: flex;
   justify-content: space-between;
+}
+.hide {
+  display: none;
 }
 .main-text {
   font-family: "Mont";
@@ -61,7 +70,8 @@ nav {
   margin: auto 0;
 }
 .img-div,
-.flex {
+.flex,
+.stroke-one {
   display: flex;
 }
 .txt {
@@ -77,10 +87,7 @@ nav {
   text-align: center;
   color: #262626;
 }
-.massage {
-  display: flex;
-  justify-content: space-between;
-}
+
 .massage-txt {
   font-family: "Mont";
   font-style: normal;
@@ -90,6 +97,7 @@ nav {
   text-align: center;
   color: #11346f;
 }
+
 .massage-img {
   margin: 0 auto;
   display: flex;
@@ -125,21 +133,10 @@ nav {
   display: flex;
   justify-content: center;
 }
-.stroke-two {
-  display: none;
-}
-.stroke-one {
-  display: flex;
-}
-.msg-text {
-  display: none;
-}
 .hide-mob {
   display: block;
 }
-.hide-des {
-  display: none;
-}
+
 .comment {
   background: rgba(234, 242, 255, 0.1);
   border: 1px solid rgba(174, 204, 255, 0.5);
@@ -148,8 +145,8 @@ nav {
   display: flex;
   margin-top: 29px;
 }
-.hr-hide {
-  display: none;
+.special-div-p {
+  display: flex;
 }
 .girl-img {
   width: 64px;
@@ -164,7 +161,244 @@ nav {
   color: #000000;
 }
 .txt-name {
+  margin: 0 15px;
+}
+
+.container-blue {
+  background: #11346f;
+  backdrop-filter: blur(2px);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.txt-two {
+  font-family: "Mont";
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+.img-two {
+  margin: auto;
+  display: flex;
+}
+.blue-div-h1 {
+  font-family: "Mont";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  color: #11346f;
   margin: 0;
+}
+.span-1 {
+  color: #ffffff;
+}
+.blue-div {
+  background: linear-gradient(118.72deg, #aeccff -18.14%, #197aff 165.34%);
+  padding: 19px;
+}
+.div1 {
+  background: linear-gradient(180deg, #ffffff 0%, #d7e6ff 100%);
+  border: 1.5px solid #197aff;
+  border-radius: 18px;
+  width: 100%;
+  padding: 0 19px;
+}
+.div2,
+.div3 {
+  background: linear-gradient(180deg, #ffffff 0%, #d7e6ff 100%);
+  opacity: 0.8;
+  border: 1.5px solid #197aff;
+  border-radius: 18px;
+  width: 100%;
+  padding: 0 19px;
+}
+.img-w {
+  width: 60%;
+  height: 20%;
+  display: flex;
+  margin: auto;
+}
+.img-6 {
+  margin-top: -5%;
+}
+.three-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 29px;
+}
+.para {
+  font-family: "Mont";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  padding: 5px;
+  background-color: #11346f;
+  background: #57ac73;
+  border-radius: 50px;
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  margin-top: -5%;
+  margin-bottom: 10px;
+}
+.image6 {
+  margin-left: 58%;
+  margin-top: -10%;
+}
+.div1-h1 {
+  font-family: "Gilroy";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 0;
+  color: #11346f;
+}
+.img-time {
+  margin: auto;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.cont1 {
+  display: flex;
+  justify-content: center;
+}
+.txt-dolar {
+  font-family: "Gilroy";
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 31px;
+  color: #11346f;
+  margin-bottom: 0;
+}
+.txt-blur {
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 31px;
+  color: #93a2bb;
+  margin-left: 15px;
+}
+.line {
+  height: 3px;
+  margin: auto 0;
+  margin-left: -30%;
+}
+.logo {
+  width: 50.48px;
+  height: 9.43px;
+  display: flex;
+  margin: auto;
+  background: #bcf5e3;
+  border-radius: 40px;
+  padding: 10px;
+}
+.txt-free {
+  font-family: "Mont";
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 15px;
+  color: #11346f;
+}
+.txt-div {
+  padding: 0 10px;
+}
+small {
+  display: none;
+}
+.three-cont {
+  background: linear-gradient(180deg, #ffffff 0%, #d7e6ff 100%);
+  opacity: 0.8;
+  border: 1.5px solid #197aff;
+  border-radius: 18px;
+}
+.img-p {
+  padding: 10px;
+  justify-content: center;
+}
+.img-p p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #11346f;
+  margin: 0 0 0 10px;
+}
+.save-div {
+  background: #bff5be;
+  border: 1px solid #99d298;
+  border-radius: 48px;
+  position: relative;
+  width: 57%;
+  padding: 0 30px;
+}
+.save-div p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #11346f;
+}
+.special-div {
+  background: #f0f6ff;
+  border: 1px solid #aeccff;
+  border-radius: 80px;
+  margin-left: -8%;
+  width: 80%;
+  display: flex;
+}
+.special-div-p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #11346f;
+  margin-left: 25%;
+}
+.span-2 {
+  color: #197aff;
+  font-family: "Gilroy";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 0;
+}
+.div1 button,
+.div2 button,
+.div3 button {
+  background: #197aff;
+  box-shadow: 0px 7px 14px rgba(25, 122, 255, 0.5);
+  border-radius: 60px;
+  width: 100%;
+  margin-top: 20px;
+  font-family: "Mont";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  padding: 12px 0;
+  border: none;
+  color: #ffffff;
+}
+.pay-div {
+  margin: 20px 0 20px 0;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+}
+.color {
+  background-color: #ac5780;
+}
+.img5 {
+  height: 35%;
+  width: 50%;
 }
 @media only screen and (min-width: 1440px) {
   nav {
@@ -199,7 +433,7 @@ nav {
     font-weight: 800;
     font-size: 14px;
     line-height: 19px;
-    text-align: center;
+    margin: auto 0;
     color: #ffffff;
     background: #197aff;
     border-radius: 60px;
@@ -210,16 +444,45 @@ nav {
     padding: 65px 100px;
     background-color: #fbfbfb;
   }
-  .div {
+  .div,
+  .hr-hide {
     display: flex;
   }
-  .stroke-one {
+  .stroke-one,
+  .br,
+  .hide-mob {
     display: none;
   }
   .stroke-two {
     display: flex;
     width: 48.18px;
     height: 66.12px;
+  }
+  .hide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 10%;
+    width: 100%;
+  }
+  .white-div {
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+  }
+  .hide-des,
+  .white-cont {
+    display: block;
+  }
+  .stroke,
+  .shipping {
+    display: flex;
+  }
+  .stroke {
+    align-items: center;
+    margin-left: 15px;
+    font-size: 16px;
   }
   .main-text {
     font-weight: 700;
@@ -249,9 +512,6 @@ nav {
     display: flex;
     margin: auto;
   }
-  .br {
-    display: none;
-  }
   .massage {
     background: rgba(174, 204, 255, 0.1);
     border: 1px solid rgba(174, 204, 255, 0.5);
@@ -272,20 +532,75 @@ nav {
     text-align: center;
     color: #262626;
   }
-  .hide-mob {
-    display: none;
-  }
-  .hide-des {
-    display: block;
-  }
+
   .div-btn {
     width: 35%;
-  }
-  .hr-hide {
-    display: flex;
   }
   .comment {
     width: 40%;
     margin: -7% 60%;
+  }
+  .container-blue {
+    margin-top: 5%;
+  }
+  .blue-div h1 {
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 49px;
+  }
+  .blue-div {
+    padding: 20px 100px;
+  }
+  .three-div {
+    gap: 40px;
+  }
+  small {
+    display: block;
+  }
+  .div1,
+  .div2,
+  .div3 {
+    width: 27%;
+  }
+  .div1 {
+    order: 2;
+  }
+  .div2 {
+    order: 3;
+  }
+  .div3 {
+    order: 1;
+  }
+  .img-w {
+    margin-top: -5%;
+  }
+  .money-txt {
+    margin: 0;
+  }
+  .day {
+    margin: 40px 0;
+    align-items: center;
+    height: 0%;
+  }
+  .hide p {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #11346f;
+    margin-left: 4%;
+  }
+  .special-div-p {
+    display: none;
+  }
+  .buy {
+    margin-top: 70px;
+  }
+  .two {
+    padding: 15px 10px;
+  }
+  .img5 {
+    height: 20%;
   }
 }
